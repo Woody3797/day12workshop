@@ -14,7 +14,7 @@ import sg.edu.nus.iss.day12_workshop.service.ItemService;
 import org.springframework.ui.Model;
 
 @Controller
-@RequestMapping(path = {"/shoppingCart"})
+@RequestMapping(path = {"/shoppingCart", "/shoppingcart"})
 public class ItemController {
     
     @Autowired
